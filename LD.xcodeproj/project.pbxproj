@@ -23,6 +23,8 @@
 		4936CF4718682AD20077EBC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4936CF2318682AD10077EBC4 /* UIKit.framework */; };
 		4936CF4F18682AD20077EBC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4936CF4D18682AD20077EBC4 /* InfoPlist.strings */; };
 		4936CF5118682AD20077EBC4 /* LDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4936CF5018682AD20077EBC4 /* LDTests.m */; };
+		49F9A78518692FBA004260EB /* LDGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9A78418692FBA004260EB /* LDGestureViewController.m */; };
+		49F9A78818697106004260EB /* LDTouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F9A78718697106004260EB /* LDTouchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,10 @@
 		4936CF4C18682AD20077EBC4 /* LDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LDTests-Info.plist"; sourceTree = "<group>"; };
 		4936CF4E18682AD20077EBC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4936CF5018682AD20077EBC4 /* LDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDTests.m; sourceTree = "<group>"; };
+		49F9A78318692FBA004260EB /* LDGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDGestureViewController.h; sourceTree = "<group>"; };
+		49F9A78418692FBA004260EB /* LDGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDGestureViewController.m; sourceTree = "<group>"; };
+		49F9A78618697106004260EB /* LDTouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDTouchViewController.h; sourceTree = "<group>"; };
+		49F9A78718697106004260EB /* LDTouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDTouchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,10 @@
 				4936CF3818682AD10077EBC4 /* LDMasterViewController.m */,
 				4936CF3A18682AD10077EBC4 /* LDDetailViewController.h */,
 				4936CF3B18682AD20077EBC4 /* LDDetailViewController.m */,
+				49F9A78318692FBA004260EB /* LDGestureViewController.h */,
+				49F9A78418692FBA004260EB /* LDGestureViewController.m */,
+				49F9A78618697106004260EB /* LDTouchViewController.h */,
+				49F9A78718697106004260EB /* LDTouchViewController.m */,
 				4936CF3D18682AD20077EBC4 /* Images.xcassets */,
 				4936CF2618682AD10077EBC4 /* Supporting Files */,
 			);
@@ -259,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F9A78818697106004260EB /* LDTouchViewController.m in Sources */,
+				49F9A78518692FBA004260EB /* LDGestureViewController.m in Sources */,
 				4936CF3018682AD10077EBC4 /* LDAppDelegate.m in Sources */,
 				4936CF3C18682AD20077EBC4 /* LDDetailViewController.m in Sources */,
 				4936CF3918682AD10077EBC4 /* LDMasterViewController.m in Sources */,
@@ -481,6 +493,7 @@
 				4936CF5618682AD20077EBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4936CF5718682AD20077EBC4 /* Build configuration list for PBXNativeTarget "LDTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +502,7 @@
 				4936CF5918682AD20077EBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
